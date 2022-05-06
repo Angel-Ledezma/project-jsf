@@ -24,6 +24,12 @@ public class EmpleadoService {
 		Empleado empleadoIBM =new Empleado();
 		Empleado empleadoMicrosoft =new Empleado();
 		Empleado empleadoApple =new Empleado();
+		Empleado empleadoNetflix =new Empleado();
+		Empleado empleadoSamsung =new Empleado();
+		Empleado empleadoLG =new Empleado();
+		Empleado empleadoSony =new Empleado();
+		Empleado empleadoHP =new Empleado();
+		Empleado empleadoAsus =new Empleado();
 		
 		
 		empleadoIBM.setNombre("Diego");
@@ -44,9 +50,53 @@ public class EmpleadoService {
 		empleadoApple.setPuesto("Architect");
 		empleadoApple.setStatus(true);
 		
+		//::::::::::::::::::::::::::::::::::::::::::::::::
+		
+		empleadoNetflix.setNombre("Michel");
+		empleadoNetflix.setPrimerApellido("Alvarez");
+		empleadoNetflix.setSegundoApellido("Peredo");
+		empleadoNetflix.setPuesto("Director");
+		empleadoNetflix.setStatus(true);
+		
+		empleadoSamsung.setNombre("Pedro");
+		empleadoSamsung.setPrimerApellido("Martinez");
+		empleadoSamsung.setSegundoApellido("Morales");
+		empleadoSamsung.setPuesto("Gerente");
+		empleadoSamsung.setStatus(false);
+		
+		empleadoLG.setNombre("Maria");
+		empleadoLG.setPrimerApellido("Gonzalez");
+		empleadoLG.setSegundoApellido("Ayala");
+		empleadoLG.setPuesto("Encargada");
+		empleadoLG.setStatus(true);
+		
+		empleadoSony.setNombre("Vanessa");
+		empleadoSony.setPrimerApellido("Montes");
+		empleadoSony.setSegundoApellido("Hernandez");
+		empleadoSony.setPuesto("CEO");
+		empleadoSony.setStatus(true);
+		
+		empleadoHP.setNombre("Pamela");
+		empleadoHP.setPrimerApellido("Medina");
+		empleadoHP.setSegundoApellido("Olaya");
+		empleadoHP.setPuesto("CEO");
+		empleadoHP.setStatus(true);
+		
+		empleadoAsus.setNombre("Rebeca");
+		empleadoAsus.setPrimerApellido("Pineda");
+		empleadoAsus.setSegundoApellido("Santana");
+		empleadoAsus.setPuesto("Gerente");
+		empleadoAsus.setStatus(false);
+		
 		empleados.add(empleadoIBM);
 		empleados.add(empleadoMicrosoft);
 		empleados.add(empleadoApple);
+		empleados.add(empleadoNetflix);
+		empleados.add(empleadoSamsung);
+		empleados.add(empleadoLG);
+		empleados.add(empleadoSony);
+		empleados.add(empleadoHP);
+		empleados.add(empleadoAsus);
 		
 		return empleados;
 	}
