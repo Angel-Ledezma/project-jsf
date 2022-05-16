@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.devpredator</groupId>
@@ -34,7 +32,6 @@
 			<artifactId>jsf-api</artifactId>
 			<version>2.2.20</version>
 		</dependency>
-<<<<<<< HEAD
 
 		<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-impl -->
 		<dependency>
@@ -50,22 +47,47 @@
 			<version>1.3.2</version>
 		</dependency>
 
-=======
-		
-		<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-impl -->
 		<dependency>
-		    <groupId>com.sun.faces</groupId>
-		    <artifactId>jsf-impl</artifactId>
-		    <version>2.2.20</version>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>8.0</version>
 		</dependency>
-		
->>>>>>> branch 'master' of https://github.com/Angel-Ledezma/project-jsf.git
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.lowagie/itext -->
+		<dependency>
+			<groupId>com.lowagie</groupId>
+			<artifactId>itext</artifactId>
+			<version>4.2.2</version>
+			<type>pom</type>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.lowagie/itext -->
+		<dependency>
+			<groupId>com.lowagie</groupId>
+			<artifactId>itext</artifactId>
+			<version>2.1.7</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
 
 	</dependencies>
 
 	<build>
 		<finalName>project-jsf</finalName>
-		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
+		<pluginManagement>
+			<!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>
 				<plugin>
